@@ -1,47 +1,9 @@
 # My Manjaro KDE Settings
 
-## [DNSCrypt-proxy Setting](https://github.com/phenkk/mymanjarokde/blob/master/README.md#dnscrypt-proxy-setting)
+## [DNSCrypt-proxy Settings](https://github.com/phenkk/mymanjarokde/blob/master/DNSCrypt-proxy-setting.md)
 
-### DNSCrypt-proxy Setting
+## [Nvidia Settings] ***(lagi proses)***
 
-`sudo pacman -S dnscrypt-proxy`
+## [Sound Settings] ***(lagi proses)***
 
-### Config the dnscrypt-proxy.toml file
-`sudo nano /etc/dnscrypt-proxy/dnscrypt-proxy.toml`
-
-#### Note: I'm using NextDNS on dnscrypt-proxy.toml file, so the server_names line looks like this:
-* `server_names = ['nextdns']`
-
-#### Setting your IPv4 connection to `127.0.0.1` and (optional `9.9.9.9`) as secondary
-* Note: On some OS/Distro `127.0.2.1` and secondary 
-
-### Make it work on any new network you connected:
-
-* `sudo nano /etc/resolvconf.conf`
-* `name_servers=127.0.0.1`
-
-### Force NetworkManager to using resolvconf
-#### Make a new file
-* `sudo nano /etc/NetworkManager/conf.d/rc-manager.conf`
-
-#### Add this
-```
-[main]
-rc-manager=resolvconf
-```
-### Start using DNSCrypt-proxy
-* `sudo systemctl enable dnscrypt-proxy.service`
-
-* `sudo systemctl start dnscrypt-proxy.service`
-
-* `sudo systemctl restart NetworkManager.service`
-
-
-### Additional Command
-* `sudo systemctl status dnscrypt-proxy.service`
-
-* `sudo systemctl restart dnscrypt-proxy.service`
-
-* `sudo systemctl restart NetworkManager.service`
-
-### or Reboot!
+## [SVP to work on Manjaro KDE] ***(lagi proses)***
