@@ -9,7 +9,8 @@
 
 ## Setting your connection to 127.0.0.1
 * or `127.0.2.1` on some platform and secondary `9.9.9.9` (optional)
-* Make it work on any new network you connected:
+
+## Make it work on any new network you connected:
 
 * `sudo nano /etc/resolvconf.conf`
 * `name_servers=127.0.0.1`
