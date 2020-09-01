@@ -40,10 +40,7 @@ rc-manager=resolvconf
 
 
 ### Additional Command
+
 * `sudo systemctl status dnscrypt-proxy.service`
-
-* `sudo systemctl restart dnscrypt-proxy.service`
-
-* `sudo systemctl restart NetworkManager.service`
 
 ### or Reboot!
