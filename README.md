@@ -4,11 +4,14 @@
 
 `sudo pacman -S dnscrypt-proxy`
 
-### Make sure to configure the dnscrypt-proxy.toml file with your preferred
+### Config the dnscrypt-proxy.toml file
 `sudo nano /etc/dnscrypt-proxy/dnscrypt-proxy.toml`
 
-### Setting your connection to 127.0.0.1
-* or `127.0.2.1` on some platform and secondary `9.9.9.9` (optional)
+#### Note: I'm using NextDNS on dnscrypt-proxy.toml file, so the server_names line looks like this:
+* `server_names = ['nextdns']`
+
+#### Setting your IPv4 connection to `127.0.0.1` and (optional `9.9.9.9`) as secondary
+* Note: On some OS/Distro `127.0.2.1` and secondary 
 
 ### Make it work on any new network you connected:
 
