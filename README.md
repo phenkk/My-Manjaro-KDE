@@ -24,12 +24,15 @@
 [main]
 rc-manager=resolvconf
 ```
-
-### Additional Command
+### Start using DNSCrypt-proxy
 * `sudo systemctl enable dnscrypt-proxy.service`
 
 * `sudo systemctl start dnscrypt-proxy.service`
 
+* `sudo systemctl restart NetworkManager.service`
+
+
+### Additional Command
 * `sudo systemctl status dnscrypt-proxy.service`
 
 * `sudo systemctl restart dnscrypt-proxy.service`
