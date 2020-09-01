@@ -11,7 +11,7 @@
 * `server_names = ['nextdns']`
 
 #### Setting your IPv4 connection to `127.0.0.1` and (optional `9.9.9.9`) as secondary
-* Note: On some OS/Distro `127.0.2.1` and secondary 
+* Note: on some OS/Distro use `127.0.2.1`
 
 ### Make it work on any new network you connected:
 
