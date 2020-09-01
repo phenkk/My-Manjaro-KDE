@@ -1,5 +1,7 @@
 # My Manjaro KDE Settings
 
+## [DNSCrypt-proxy Setting](https://github.com/phenkk/mymanjarokde/blob/master/README.md#dnscrypt-proxy-setting)
+
 ### DNSCrypt-proxy Setting
 
 `sudo pacman -S dnscrypt-proxy`
