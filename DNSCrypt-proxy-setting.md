@@ -6,12 +6,12 @@
 
 `sudo nano /etc/dnscrypt-proxy/dnscrypt-proxy.toml`
 
-#### Note: I'm using NextDNS on dnscrypt-proxy.toml file, so the server_names line looks like this:
+###### Note: I'm using NextDNS on dnscrypt-proxy.toml file, so the server_names line looks like this:
 
 * `server_names = ['nextdns']`
 
 #### Setting your IPv4 connection to `127.0.0.1` and (optional `9.9.9.9`) as secondary
-* Note: on some OS/Distro use `127.0.2.1`
+* on some OS/Distro maybe use `127.0.2.1`
 
 ### Make it work on any new network you connected:
 
