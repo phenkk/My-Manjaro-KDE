@@ -21,7 +21,7 @@ key <CAPS> {
 ##### - Save -
 
 ### 3. Create script to run on startup:
-`nano ~/.capslockfixer.sh`
+`nano ~/capslockfixer.sh`
 
 ##### - Add this:
 ```
