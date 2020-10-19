@@ -1,4 +1,4 @@
-# Capslock Delay Fix for Manjaro KDE
+# Capslock-Delay-Fix-for-Manjaro-KDE
 ### 1. Export your keyboard configuration:
 `xkbcomp -xkb $DISPLAY xkbmap`
 
